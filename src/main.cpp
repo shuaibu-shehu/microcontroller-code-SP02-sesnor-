@@ -83,7 +83,7 @@ void setup() {
     }
   });
 
-  client.connect("ws://yourserver.com:port");
+  client.connect("ws://localhost:8000");
 }
 
 float calculateSpO2Simple(long redValue, long irValue);
